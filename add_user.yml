@@ -1,0 +1,6 @@
+- hosts: all
+  user: root
+
+tasks:
+  - name: Add user
+    action: user name=vladimirm password=Gfwn4827 groups=wheel
